@@ -51,5 +51,5 @@ function redirectToWhatsApp() {
   var message = "Halo, saya ingin memesan paket ini. Mohon info lebih lanjut.";
 
   // Membuka link WhatsApp dengan nomor dan pesan tertentu
-  window.open("https://api.whatsapp.com/send?phone=6287893453563" + phoneNumber + "&text=" + encodeURIComponent(message));
+  window.open("https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message));
 }
